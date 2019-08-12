@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entrepreneur Exclusive</title>
+</head>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAHr3_QgUwLNiM8d1wEtn9EhnB3D_6S8S0",
+    authDomain: "entrepreneur-exclusive.firebaseapp.com",
+    databaseURL: "https://entrepreneur-exclusive.firebaseio.com",
+    projectId: "entrepreneur-exclusive",
+    storageBucket: "entrepreneur-exclusive.appspot.com",
+    messagingSenderId: "824632621502",
+    appId: "1:824632621502:web:58c7011ae692ca54"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="lib/script.js" defer></script>
+<link rel="stylesheet" href="lib/style.css">
+
+<body>
+    <div class="userContainer">
+        <form>
+            <button id="businessRegister">Business Advertisement</button>
+            <div class="inputContainer">
+                <div class="singleInput">
+                    <label for="businessOwner">Business Owner:</label>
+                    <input id="businessInfo1" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="businessName">Your Business' name:</label>
+                    <input id="businessInfo2" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="businessType">Type of Business:</label>
+                    <input id="businessInfo3" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="businessAddress">Business Location:</label>
+                    <input id="businessInfo4" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="businessNumber">Business Number:</label>
+                    <input id="businessInfo5" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="businessE-mail">Business E-mail:</label>
+                    <input id="businessInfo6" type="email">
+                </div>
+                <button id="submitButton">Submit</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
