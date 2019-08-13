@@ -2,6 +2,11 @@
     display: none;
 }
 
-.searchInfo{
+.searchInfo {
     display: none;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-direction: row;
 }
