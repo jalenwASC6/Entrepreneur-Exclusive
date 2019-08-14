@@ -8,7 +8,7 @@
 
 #buttonContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 @keyframes slidy {
@@ -145,13 +145,75 @@
 
   button#userSearch {
       color: blue;
-      margin-top: 5px;
+      margin-left: 5px;
+      font: 16px "Oswald", sans-serif;
+      
   }
 
   button#businessRegister {
       color: red;
+      font: 16px "Oswald", sans-serif;
   }
 
   div.addedBusinesses {
       color: whitesmoke;
   }
+
+  button#userSearch:hover {
+    background-color: black;
+    color: white;
+  }
+
+  button#businessRegister:hover {
+    background-color: black;
+    color: white;
+  }
+
+input#businessInfo-email {
+    margin: 5px 1px 3px 0px;
+    padding: 3px 0px 3px 3px;
+}
+
+label {
+    color: whitesmoke;
+}
+
+button#submitButton {
+    color: red;
+    font: 16px "Oswald", sans-serif;
+}
+
+button#resetButton {
+    color: blue;
+    font: 16px "Oswald", sans-serif;
+}
+
+button#submitButton:hover {
+    background-color: black;
+    color: white;
+}
+
+button#resetButton:hover {
+    background-color: black;
+    color: white;
+}
+
+button#userSubmitButton {
+    color: red;
+    font: 16px "Oswald", sans-serif;
+}
+
+button#userResetButton {
+    color: blue;
+    font: 16px "Oswald", sans-serif;
+}
+
+button#userSubmitButton:hover {
+    background-color: black;
+    color: white;
+}
+
+button#userResetButton:hover {
+    background-color: black;
+    color: white;
+}
