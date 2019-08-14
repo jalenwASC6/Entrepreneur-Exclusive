@@ -8,7 +8,7 @@
 
 #buttonContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 @keyframes slidy {
@@ -141,4 +141,17 @@
   label {
     width: 150px;
     float: left;
+  }
+
+  button#userSearch {
+      color: blue;
+      margin-top: 5px;
+  }
+
+  button#businessRegister {
+      color: red;
+  }
+
+  div.addedBusinesses {
+      color: whitesmoke;
   }
