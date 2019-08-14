@@ -143,13 +143,16 @@
   label {
     width: 150px;
     float: left;
+    color: whitesmoke;
+    font: 16px "Oswald", sans-serif;
   }
 
+
+/* Jalen's Code */
   button#userSearch {
       color: blue;
       margin-left: 5px;
       font: 16px "Oswald", sans-serif;
-      
   }
 
   button#businessRegister {
@@ -174,11 +177,6 @@
 input#businessInfo-email {
     margin: 5px 1px 3px 0px;
     padding: 3px 0px 3px 3px;
-}
-
-label {
-    color: whitesmoke;
-    font: 16px "Oswald", sans-serif;
 }
 
 button#submitButton {
