@@ -1,3 +1,4 @@
+/* Jalen's Code */
 .inputContainer {
     display: none;
 }
@@ -11,6 +12,7 @@
     flex-direction: row;
 }
 
+/* Maximus' Code */
 @keyframes slidy {
     0% { left: 0%; }
     20% { left: 0%; }
@@ -176,6 +178,7 @@ input#businessInfo-email {
 
 label {
     color: whitesmoke;
+    font: 16px "Oswald", sans-serif;
 }
 
 button#submitButton {
@@ -216,4 +219,8 @@ button#userSubmitButton:hover {
 button#userResetButton:hover {
     background-color: black;
     color: white;
+}
+
+div#questionBox {
+    display: none;
 }
