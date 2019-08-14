@@ -10,3 +10,135 @@
     display: flex;
     flex-direction: row;
 }
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    30% { left: -80%; }
+    40% { left: -80%; }
+    50% { left: -180%; }
+    60% { left: -180%; }
+    /* 70% { left: -250%; }
+    80% { left: -250%; }
+    90% { left: -250%; }
+    100% { left: -300%; } */
+    }
+    @-webkit-keyframes aitf {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+    }
+ body {
+  background-image:
+  linear-gradient(rgba(37, 49, 121, 0.52), rgba(17, 17, 17, 0.73)),
+  url(https://entrepreneurhandbook.co.uk/wp-content/uploads/2018/03/Example-of-vector-abstract-image.png);
+  background-size: cover;
+  font-family:'Roboto';
+  height:100vh;
+  overflow:hidden;
+  margin: 0;
+ }
+ .box {
+    border: thin;
+    padding: 0px;
+    margin: 0;
+ }
+ .navBar {
+ text-align: right;
+ display: flex;
+ height: 10vh;
+ align-items: center;
+ padding:none;
+ margin: 0;
+ border: thin;
+ border-bottom: 5px solid black;
+ }
+ p {
+    font: 700 4em/1 "Oswald", sans-serif;
+      letter-spacing: 0;
+      font-size: 23px;
+       display: block;
+       margin: 0 auto;
+      text-shadow: 0 0 80px rgba(255,255,255,.5);
+      background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png)
+        repeat-y;
+       -webkit-background-clip: text;
+       background-clip: text;
+       -webkit-text-fill-color: transparent;
+       -webkit-animation: aitf 80s linear infinite;
+       -webkit-transform: translate3d(0,0,0);
+       -webkit-backface-visibility: hidden;
+  }
+ .navBar a {
+    color:white;
+ }
+ .join {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50%;
+ }
+ div#img {
+    max-height:900%;
+    max-width: 900%;
+    margin: 0;
+    /* border-bottom: 9px solid rgb(185, 141, 21); */
+    border-top: 9px solid rgb(185, 141, 21);
+    border-left: 9px solid rgb(185, 141, 21);
+    border-right: 9px solid rgb(185, 141, 21);
+ }
+ div#slider {
+ overflow: hidden;
+ }
+ div#slider figure img {
+ width: 20%;
+ float: left;
+ }
+ div#slider figure {
+  position: relative;
+  width: 290%;
+  margin: 0;
+  /* left: 0;
+  text-align: left;
+  font-size: 0; */
+  animation: 30s slidy infinite;
+  background-repeat: repeat;
+ }
+ /* .textBox {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ } */
+ div#textbox {
+    margin: auto;
+    background-color: #d8c764;
+    border-radius: 30px;
+ }
+ div#questionBox {
+    display: flex;
+    justify-content: center;
+    /* background-color: #cacaca; */
+ }
+ div#searchBar {
+    display: flex;
+    align-items: center;
+ }
+ input[type=text], textarea {
+    transition: (all 0.30s ease-in-out);
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+  }
+  input[type=text]:focus, textarea:focus {
+    box-shadow: (0 0 5px rgba(81, 203, 238, 1));
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
+  }
+  label {
+    width: 150px;
+    float: left;
+  }
