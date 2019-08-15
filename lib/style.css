@@ -29,6 +29,7 @@
         0% { background-position: 0% 50%; }
         100% { background-position: 100% 50%; }
     }
+
  body {
   background-image:
   linear-gradient(rgba(37, 49, 121, 0.52), rgba(17, 17, 17, 0.73)),
@@ -39,11 +40,13 @@
   overflow:hidden;
   margin: 0;
  }
+
  .box {
     border: thin;
     padding: 0px;
     margin: 0;
  }
+
  .navBar {
  text-align: right;
  display: flex;
@@ -54,6 +57,7 @@
  border: thin;
  border-bottom: 5px solid black;
  }
+ 
  p {
     font: 700 4em/1 "Oswald", sans-serif;
       letter-spacing: 0;
@@ -70,13 +74,16 @@
        -webkit-transform: translate3d(0,0,0);
        -webkit-backface-visibility: hidden;
   }
+
  .navBar a {
     color:white;
  }
+
  .join {
     font-family: 'Courier New', Courier, monospace;
     margin-left: 50%;
  }
+
  div#img {
     max-height:900%;
     max-width: 900%;
@@ -86,12 +93,14 @@
     border-left: 9px solid rgb(185, 141, 21);
     border-right: 9px solid rgb(185, 141, 21);
  }
+
  div#slider {
- overflow: hidden;
+    overflow: hidden;
  }
+
  div#slider figure img {
- width: 20%;
- float: left;
+    width: 20%;
+    float: left;
  }
  div#slider figure {
   position: relative;
@@ -103,6 +112,7 @@
   animation: 30s slidy infinite;
   background-repeat: repeat;
  }
+
  /* .textBox {
     width: 100%;
     background-color: #4CAF50;
@@ -113,6 +123,7 @@
     border-radius: 4px;
     cursor: pointer;
  } */
+ 
  div#textbox {
     margin: auto;
     background-color: #d8c764;
