@@ -12,7 +12,6 @@
     flex-direction: row;
 }
 
-/* Maximus' Code */
 @keyframes slidy {
     0% { left: 0%; }
     20% { left: 0%; }
@@ -159,7 +158,6 @@
   }
 
 
-/* Jalen's Code */
   button#userSearch {
       color: blue;
       margin-left: 5px;
